@@ -16,6 +16,6 @@ public class LoginTest  extends BaseTest {
     @Test(priority = 2)
     public void loginTest()
     {
-        page.getInstance(LoginPage.class).doLogin("pritihirave7599@gmail.com","Pass@9970507109");
+        page.getInstance(LoginPage.class).doLogin("pritihirave@gmail.com","**");
     }
 }
